@@ -1,55 +1,51 @@
 .logo{
-    margin-top: 30px;
-    margin-left: 30px;
     width: 100px;
-    height: 30px;
-
+    margin-left: 30px;
+    margin-top: 30px;
 }
+
 .navigation{
     margin-top: 27px;
     margin-left: 30px;
 }
-
 .navigation-a{
     padding: 7.5px 0px;
     font-size: 22px;
-    display: inline-block;
     color: #3D58A6;
-
-
-
-
+    display: inline-block;
 }
-
 .banner{
     margin-top: 27px;
-
-
-}
-
-.navigation-a:hover{
-    color: red;
-}
-
-.footer img{
-    height: 30px;
     margin-left: 30px;
 }
 
-.footer-li {
+
+.date{
+    background-color: #3D58A6;
     display: inline-block;
+    padding: 8px;
+    font-size: 48px;
+    color: aliceblue;
+    margin-top: 42px;
+}
+.month{
+    display: block;
+    font-size: 22px;
+    color: #3D58A6;
+}
+.par{
     margin-top: 30px;
 }
-.social-a.fb{
-    padding-right: 30px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #3D58A6;
-    display: inline-block;
+.h1{
+    font-size: 20px;
+    margin-top: 16px;
+    display: block;
 
 }
-.social-a.youtube{
-
-    display: inline-block;
+.article{
+    margin-top: 16px;
+    margin-left: 30px;
 }
-
+.img-article{
+    margin-top: 23px;
+}
