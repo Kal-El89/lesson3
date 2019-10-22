@@ -49,3 +49,19 @@
 .img-article{
     margin-top: 23px;
 }
+.contact-section{
+    Width: 280px;
+margin: 150px auto;
+text-align: center;
+}
+.row{
+    text-align: center;
+    margin: 5px auto;
+}
+.contact-title{
+    font-size: 20px;
+    color: #3D58A6;
+}
+.key{
+    color: #808080;
+}
