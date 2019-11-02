@@ -7,37 +7,64 @@
     <title> მესამე დავალება </title>
 </head>
 <body>
-<header>
-    <a href="x">
+        <main class="main">
+<header class="header clearfix">
+<div class="container">
+    <a class="logo float-left" href="x">
         <img class="logo" src="img/SVG/logo.svg" alt="logo">
     </a>
+    <ul class="social-ul float-right">
+            <li class="social-li">
+                    <a class="social-a inline-block" href="x">
+                        <img class="social-google" src="img/SVG/google.svg" alt="google">
+                    </a>
+            </li>
+            <li class="social-li">
+                    <a class="social-a inline-block" href="x">
+                        <img class="social-facebook" src="img/SVG/fb.svg" alt="fb">
+                    </a>
+            </li>
+            <li class="social-li">
+                    <a class="social-a inline-block" href="x">
+                        <img class="social-youtube" src="img/SVG/youtube.svg" alt="youtube">
+                    </a>
+            </li>
+            <li class="social-li">
+                    <a class="social-a inline-block" href="x">
+                        <img class="social-search" src="img/SVG/search.svg" alt="search">
+                    </a>
+            </li>
+    
+        </ul>
+    <nav class="navigation float-right">
+        <ul class="navigation-ul">
+            <li class="navigation-li">
+                <a href="index.html" class="navigation-a">home</a>
+            </li>
+            <li class="navigation-li">
+                <a href="news.html" class="navigation-a">news</a>
+            </li>
+            <li class="navigation-li">
+                <a href="contact.html" class="navigation-a">about</a>
+            </li>
+            <li class="navigation-li">
+                <a href="contact.html" class="navigation-a">contact</a>
+            </li>
+        </ul>
+    </nav>
+
+</div>
 </header>
-<nav class="navigation">
-<ul class="navigation-ul">
-    <li class="navigation-li">
-        <a href="index.html" class="navigation-a">მთავარი</a>
-    </li>
-    <ul class="navigation-ul">
-        <li class="navigation-li">
-            <a href="news.html" class="navigation-a">სიახლეები</a>
-        </li>
-    </ul>
-    <ul class="navigation-ul">
-        <li class="navigation-li">
-            <a href="contact.html" class="navigation-a">კონტაქტები</a>
-        </li>
-    </ul>
-</ul>
-</nav>
-<section>
-    <img class="banner" src="img/1x/banner.png" alt="banner">
+
+<section class="banner-container">
+    <div class="container"> 
+            <img class="banner" src="img/1x/banner.png" alt="banner">
+    </div>
 </section>
 <section class="feature">
-    <div class="feature-title">
-        <h1 class="feature-title-1">
+       <h1 class="feature-title-1">
             Featured | <a href="x">view all featured media</a> 
         </h1>
-    </div>
     <div class="featured-img-content">
         <article class="featured-article">
             <h1 class="content-article">Responsive Web Design</h1>
@@ -47,7 +74,7 @@
     </p>
 
 </article><!--
---><article class="featured-article left">
+--><article class="featured-article left inline-block">
         <h1 class="content-article">App Development</h1>
         <div class="content">
 <img class="content-img" src="img/1x/mobile.png" alt="mobile">
@@ -56,6 +83,8 @@
         </div>
     
     </article>
-    </div>
+</div>
 </section>
+
+        </main>
 </body>
