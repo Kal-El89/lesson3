@@ -29,6 +29,9 @@
     display: block;
     clear: both;
 }
+.relative{
+    position: relative;
+}
 
 /* base classes */
 
@@ -50,14 +53,30 @@
     font-size: 22px;
     color: #3D58A6;
     display: inline-block;
+    opacity: 1;
+    /*transition-property: opacity;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    transition-delay: 1s;*/
+    transition: opacity .3s linear 1s;
 }
-
+.navigation-a:hover{
+    opacity: 0.5;
+}
 .navigation-li{
     display: inline-block;
 }
 
+.main{
+    padding-top: 95px;
+}
+
 .header{
     padding: 30px 0px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 /* navigation */
 
@@ -100,6 +119,21 @@
 .banner-container{
     background-color: #E6E6E6;
     padding: 30px 0;
+    /* animation: test 2s linear; */
+}
+
+.mini-logo{
+    width: 100px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.banner-ul{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    color: #E6E6E6;
 }
 /* banner */
 
@@ -177,6 +211,85 @@ padding-left: 15px;
 }
 
 /* second page */
+
+/* CONTACT */
+.navigation-box{
+    background-color: #EE4036;
+    left: 0;
+    width: 100%;
+    line-height: 90px;
+    
+}
+.navigation-box-a{
+    color: wheat;
+    font-size: 22px;
+}
+/* CONTACT */
+
+/* google map */
+.map-block{
+    background-color: #E6E6E6;
+    padding: 30px 0px;
+}
+
+.map-block .map{
+    height: 460px;
+    display: block;
+}
+/* google map */
+/* form */
+.form-row{
+    margin-top: 15px;
+}
+
+.form-block .left-block{
+    width: 365px;
+}
+.form-block .right-block{
+    width: calc(100% - 365px);
+    padding-right: 170px;
+}
+.form-row input,
+.form-row textarea{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    border: 3px solid #ffff;
+    background-color: transparent;
+    padding-left: 25px;
+    color:  #ffff;
+    margin-top: 15px;
+}
+.form-row textarea{
+   height: 100px;
+   
+}
+.form-row label{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.form-row input::placeholder{
+    color: #5E65AC;
+}
+.form-wrapper{
+    background-color: #363E97;
+    padding: 30px 0px;
+}
+
+.send{
+    background-color: #EE4036;
+    height: 45px;
+    width: 130px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+
+/* form */
+
 .contact-section{
     
 background-color: #E6E6E6;
@@ -195,11 +308,7 @@ padding: 30px 0px 30px 30px;
     
     
 }
-.google{
-    width: 874px;
-    height: 430px;
-    border: 0;
-}
+
 .row{
    
     margin: 5px auto;
@@ -269,3 +378,28 @@ padding: 30px 0px 30px 30px;
     line-height: 60px;
 }
 /* footer */
+
+/*@keyframes test{
+    from{
+        background-color: red;
+        height: 50px;
+    }
+    to{
+        background-color: yellow;
+        height: 500px;
+    }
+}*/
+/*@keyframes test{
+    0%{
+        background-color: yellow;
+        transform: rotate (0deg)
+    
+    }
+    30%{
+        background-color: white
+    
+    }
+    >>>overflow: hidden;
+    >>>transform: skew(-29deg);
+    >>>transfotm: scale(1.2);
+}*/

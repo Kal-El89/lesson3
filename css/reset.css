@@ -53,3 +53,8 @@ a{
 *{
 	box-sizing: border-box;
 }
+
+input, textarea, button{
+	border: 0;
+	outline: 0;
+}
