@@ -2,15 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta htt-equiv="X-UA-Compatible" content="ie=edge"> 
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
     <title> მესამე დავალება </title>
 </head>
 <body>
 <main class="main">
     <header class="header">
         <div class="container header-wrapper">
-                <a class="logo" href="x">
+                <a class="logo" href="logo-wrapper">
                         <img class="logo" src="img/SVG/logo.svg" alt="logo">
                     </a>
                 <nav class="navigation">
@@ -46,14 +49,18 @@
                     <img class="social-youtube" src="img/SVG/youtube.svg" alt="youtube">
                 </a>
             </li>
-            <li class="social-li">
+            <li class="social-li search">
                 <a class="social-a inline-block" href="x">
                     <img class="social-search" src="img/SVG/search.svg" alt="search">
                 </a>
             </li>
     
         </ul>
-    
+    <div class="burger-menu relative clearfix">
+        <span class="arrow"></span>
+        <span class="arrow"></span>
+        <span class="arrow"></span>
+    </div>
 
 </div>
 </header>
@@ -146,6 +153,47 @@
         <div class="footer-right">created by: ME</div>
     </div>
 </footer>
-
+<div class="overlay">
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-ul">
+            <li class="mobile-nav-li">
+                    <a href="index.html" class="mobile-nav-a">home</a>
+            </li>
+        </ul>
+        <ul class="mobile-nav-ul">
+            <li class="mobile-nav-li">
+                    <a href="index.html" class="mobile-nav-a">news</a>
+            </li>
+        </ul>
+        <ul class="mobile-nav-ul">
+            <li class="mobile-nav-li">
+                    <a href="index.html" class="mobile-nav-a">about</a>
+            </li>
+        </ul>
+        <ul class="mobile-nav-ul">
+            <li class="mobile-nav-li">
+                    <a href="index.html" class="mobile-nav-a">contact</a>
+            </li>
+            </ul>
+        </nav>
+            <ul class="mobile-social-ul">
+                    <li class="mobile-social-li">
+                            <a href="index.html" class="mobile-social-a">
+                                <img class="img-overlay" src="img/SVG/google.svg" alt="google">
+                            </a>
+                    </li>
+                            <li class="mobile-social-li">
+                                    <a href="index.html" class="mobile-social-a">
+                                            <img class="img-overlay" src="img/SVG/fb.svg" alt="fb">
+                                    </a>
+                            </li>
+    
+                                    <li class="mobile-social-li">
+                                            <a href="index.html" class="mobile-social-a">
+                                                    <img class="img-overlay" src="img/SVG/youtube.svg" alt="youtube">
+                                            </a>
+                                    </li>
+        </ul>
+</div>
         </main>
 </body>
