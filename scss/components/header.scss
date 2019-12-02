@@ -1,0 +1,123 @@
+/* navigation */
+.logo{
+    width: 100px;
+    
+   
+}
+
+.navigation{
+    display: inline-block;
+    
+}
+.navigation-a{
+    padding: 0px 15px;
+    font-size: 22px;
+    color: #3D58A6;
+    display: inline-block;
+    opacity: 1;
+    /*transition-property: opacity;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    transition-delay: 1s;*/
+    transition: opacity .3s linear 1s;
+}
+.navigation-a:hover{
+    opacity: 0.5;
+}
+.navigation-li{
+    display: inline-block;
+}
+
+.main{
+    padding-top: 95px;
+}
+
+.header{
+    padding: 30px 0px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* navigation */
+
+/* burger menu */
+
+.burger-menu {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #363E97;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+}
+.burger-menu .arrow{
+  width: 40px;
+  height: 5px;
+  background-color: #363E97;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transition: all .3s linear;
+}
+.burger-menu .arrow:nth-child(1){
+    top: 30%;
+}
+.burger-menu .arrow:nth-child(3){
+    top: 70%;
+}
+
+.burger-menu:hover .arrow:nth-child(1){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.burger-menu:hover .arrow:nth-child(3){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.burger-menu:hover .arrow:nth-child(2){
+    left: -100%;
+}
+/* burger menu */
+
+/*social */
+
+
+.social-li{
+    .social-a{
+        padding: 0 15px;
+        border-right-color: #3D58A6;
+        border-right-style: solid;
+        border-right-width: 3px;
+    }
+    &:last-child{
+        .social-a{
+            padding-right: 0;
+            border: 0;
+        }
+    }
+}
+
+
+.social-google{
+    height: 30px;
+}
+.social-facebook{
+    height: 30px;
+}
+.social-youtube{
+    height: 30px;
+}
+.social-search{
+    height: 30px;
+}
+/*social */
